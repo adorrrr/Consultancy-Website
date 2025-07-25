@@ -1,0 +1,183 @@
+//Global Color
+$primary-color: #F9FCFF;
+$secondary-color: #0E1622;
+$text-color: #041022;
+$text-white: #F9FCFF;
+$dark-background: #121D2D;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Sora:wght@100..800&display=swap');
+
+body{
+    font-family: "Sora", sans-serif;
+}
+
+h1{
+    font-size: 4.5em;
+}
+h2{
+    font-size: 3em;
+}
+h3{
+    font-size: 1.5em;
+}
+
+p{
+    font-size: 1.2em;
+}
+a{
+    text-decoration: none;
+    color: $text-white;
+    &:hover{
+            color: $primary-color;
+        }
+}
+
+.btn-primary{
+  font-family: "Manrope", sans-serif;
+    background-color: $primary-color;
+    border: 1px solid $primary-color;
+    padding:15px 20px;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 24px;
+    color: $text-color;
+    &:hover{
+        background-color: transparent;
+        border: 1px solid $primary-color;
+        color: $text-white;
+    }
+}
+
+  .btn-secondary{
+    font-family: "Manrope", sans-serif;
+    background-color: transparent;
+    border: 1px solid $primary-color;
+    padding:15px 20px;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 24px;
+    &:hover{
+        background-color: $primary-color;
+        border: 1px solid $primary-color;
+        color: $text-color;
+        }
+}
+
+
+
+
+
+.section-1{
+  padding: 0px 160px;
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(90deg, #0E1622, #4790FF); // Adjust based on your image
+    .hero{
+      color: $text-white;
+      padding-top: 200px;
+
+      h1{
+        font-weight: 600;
+        font-size: 76px;
+        letter-spacing: -2px;
+        line-height: 86px;
+      }
+      p{
+        font-family: "Manrope", sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+      }
+
+  }
+}
+
+.section-2 {
+  position: relative; // ✅ Needed for absolute child positioning
+  width: 100%;
+  height: 370px;
+
+  .partnered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); // ✅ Center horizontally & vertically
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 160px;
+
+    .Title h3 {
+      font-size: 28px;
+      font-weight: 600;
+      color: $text-color; // or dark if your background is light
+      margin-bottom: 20px;
+    }
+
+    .PartneredIMG img {
+
+      height: 40px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+.brand{
+    i{
+        align-items: center;
+    }
+    img{
+        height: 30px;
+    }
+    span{
+      font-size: 24px;
+    }
+}
+
+.dash-nav {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+
+  .dash-link {
+    position: relative;
+    padding: 0 1rem;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 20px;
+
+
+    &::before {
+      left: -1.5rem;
+    }
+
+    &::after {
+      right: -1.5rem;
+    }
+
+    &:first-child::before {
+      content: '';
+    }
+
+    &:last-child::after {
+      content: '';
+    }
+
+    &:hover {
+      color: #0dcaf0 !important;
+    }
+  }
+}
+

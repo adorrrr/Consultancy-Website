@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../common/Header'
 import Hero from '../../assets/images/heros.png'
 import TrustFactor from '../common/TrustFactor'
-
+import Partner from '../../assets/images/portrait-smiling-young-man 2.png'
 
 
 const Home = () => {
@@ -14,29 +14,57 @@ const Home = () => {
                 <div className='hero d-flex align-items-center '>
                       <div className='text-left'>
                           <h1>AI Consulting. <br />Engineered for <br /> Tomorrow’s Triumph</h1>
-                          <p className='mt-5'>We craft intelligent, adaptive solutions that drive efficiency, <br /> spark innovation, and scale impact—today and beyond.</p>
+                          <p className='mt-5 text-capitalize'>We craft intelligent, adaptive solutions that drive efficiency, <br /> spark innovation, and scale impact—today and beyond.</p>
                           <div className='mt-5'>
                             <a className='btn btn-primary mx-2'>Contact Now</a>
                             <a className='btn btn-secondary ms-2'>View Projects</a>
                           </div>
                       </div>
                 </div>
-                
             </section>
 
+            <TrustFactor />
+            
+        </main>
 
-            <section className='section-2'>
-                <div className='partnered'>
-                    <div className='Title'>
-                        <h3>We have partnered with</h3>
+        <section className='section-3'>
+            <div className='component'>
+                <div className='con-item d-flex mb-5'>
+                    <div className='text-con'>
+                        <h2>Your Trusted Partner <br />For Sustainable Growth</h2>
+                        <p className='text-capitalize'>We know every business is unique — that’s why we craft <br />personalized strategies that make AI practical, scalable, and <br />impactful for the real world.</p>
+                        <a href="" className='btn btn-black mt-2'>Learn More About Us</a>
                     </div>
-                    <div className='PartneredIMG'>
-                        <img src={Partnered} alt="" />
+                    <div>
+                        <img src={Partner} alt="" />
                     </div>
                 </div>
-            </section>
-        </main>
+                <div class="hero-stats">
+                  <div class="stat-item">
+                    <h2>20+</h2>
+                    <p>Years Of Industry Experience</p>
+                  </div>
+                  <div class="stat-item">
+                    <h2>100+</h2>
+                    <p>Global Businesses Served</p>
+                  </div>
+                  <div class="stat-item">
+                    <h2>$90M+</h2>
+                    <p>Business Value Generated</p>
+                  </div>
+                  <div class="stat-item">
+                    <h2>98%</h2>
+                    <p>Client Satisfaction Rate</p>
+                  </div>
+                </div>
+            </div>
+        </section>
         
+
+        <section>
+
+            
+        </section>
     </>
   )
 }

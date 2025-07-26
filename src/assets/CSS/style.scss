@@ -65,72 +65,26 @@ a{
         }
 }
 
-
-
-
-
-.section-1{
-  padding: 0px 160px;
-    width: 100%;
-    height: 1000px;
-    background: linear-gradient(90deg, #0E1622, #4790FF); // Adjust based on your image
-    .hero{
-      color: $text-white;
-      padding-top: 200px;
-
-      h1{
-        font-weight: 600;
-        font-size: 76px;
-        letter-spacing: -2px;
-        line-height: 86px;
-      }
-      p{
-        font-family: "Manrope", sans-serif;
-        font-weight: 500;
-        font-size: 24px;
-      }
-
-  }
-}
-
-.section-2 {
-  position: relative; // ✅ Needed for absolute child positioning
-  width: 100%;
-  height: 370px;
-
-  .partnered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); // ✅ Center horizontally & vertically
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 0 160px;
-
-    .Title h3 {
-      font-size: 28px;
-      font-weight: 600;
-      color: $text-color; // or dark if your background is light
-      margin-bottom: 20px;
+.btn-black{
+  font-family: "Manrope", sans-serif;
+    background-color: $text-color;
+    border: 1px solid $text-color;
+    padding:15px 20px;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 24px;
+    color: $text-white;
+    &:hover{
+        background-color: transparent;
+        border: 1px solid $secondary-color;
+        color: $text-color;
     }
-
-    .PartneredIMG img {
-
-      height: 40px;
-    }
-  }
 }
 
 
 
-
-
-
-
-
-.brand{
+header{
+  .brand{
     i{
         align-items: center;
     }
@@ -180,4 +134,133 @@ a{
     }
   }
 }
+
+
+}
+
+
+
+
+.section-1{
+  padding: 0px 160px;
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(90deg, #0E1622, #4790FF); // Adjust based on your image
+    .hero{
+      color: $text-white;
+      padding-top: 200px;
+
+      h1{
+        font-weight: 600;
+        font-size: 76px;
+        letter-spacing: -2px;
+        line-height: 86px;
+      }
+      p{
+        font-family: "Manrope", sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+      }
+
+  }
+}
+
+.section-2 {
+  position: relative; 
+  width: 100%;
+  height: 370px;
+
+  .partnered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 160px;
+
+    .Title h3 {
+      font-size: 28px;
+      font-weight: 600;
+      color: $text-color; 
+      margin-bottom: 20px;
+    }
+
+    .PartneredIMG img {
+
+      height: 40px;
+    }
+  }
+}
+
+
+.section-3{
+  position: relative; 
+  width: 100%;
+  height: 1125px;
+  align-items: center;
+  padding: 80px 160px;
+  
+
+
+  .con-item{
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    h2{
+      font-size: 64px;
+      font-weight: 600;
+      line-height: 86px;
+      letter-spacing: -2%;
+      color: $text-color;
+    }
+    p{
+      font-size: 24px;
+      font-weight: 400;
+      padding: 40px 0;
+    }
+    
+  }
+  img{
+    width: 770px;
+    height: 645px;
+    border-radius: 24px;
+  }
+
+
+  .hero-stats {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 130px;
+
+  .stat-item{
+    align-items: center;
+    text-align: center;
+
+    h2{
+      font-family: "Sora", sans-serif;
+      font-size: 76px;
+      font-weight: 700;
+      letter-spacing: -2%;
+      line-height: 86px;
+    }
+    p{
+        font-family: "Inter", sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+
+    }
+  }
+
+}
+
+
+
+
+
+}
+
 

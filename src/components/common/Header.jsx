@@ -7,6 +7,7 @@ import Logo from '../../assets/images/Vector.png'
 
 const Header = () => {
   return (
+  <header>
     <Navbar expand="lg" className="custom-navbar py-3">
         {/* Brand */}
         <Navbar.Brand href="/" className="brand text-white fw-bold d-flex align-items-center  gap-2">
@@ -32,11 +33,10 @@ const Header = () => {
 
         {/* Right Button */}
         <div className="ms-auto d-none d-lg-block">
-          <Button variant="outline-light" className="btn-secondary">
-            Get Started
-          </Button>
+          <a href="/" className="btn-secondary" variant="outline-light"> Get Started</a>
         </div>
     </Navbar>
+  </header>
   );
 }
 

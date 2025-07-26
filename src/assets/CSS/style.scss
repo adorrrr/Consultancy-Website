@@ -3,7 +3,7 @@ $primary-color: #F9FCFF;
 $secondary-color: #0E1622;
 $text-color: #041022;
 $text-white: #F9FCFF;
-$dark-background: #121D2D;
+$lightdark-background: #121D2D;
 
 
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
@@ -257,10 +257,27 @@ header{
 
 }
 
+}
 
 
+.section-4{
+  width: 100%;
+  align-items: center;
+  padding: 80px 160px;
+  background-color: $secondary-color;
 
+  .servies{
+    align-items: center;
+    text-align: center;
+  }
 
+  .row{
+    margin: 90px 0;
+    .card{
+      background-color: $lightdark-background;
+      color: $primary-color;
+    }
+  }
 }
 
 

@@ -61,9 +61,97 @@ const Home = () => {
         </section>
         
 
-        <section>
+        <section className='section-4'>
+            <div className='servies'>
+                <div className='servies-heading-contant'>
+                    <h2>What We Can Do for Your Business</h2>
+                    <p>End-to-end strategies that turn AI into real business results—tailored to your goals, challenges, and scale.</p>
+                </div>
+                <div className='row'>
+                    <div className='col-md-3 col-lg-4 '>
+                        <div className='card shadow border-0 p-4 mb-4'>
+                            <div className='icon'>
+                                <img src="" alt="" />
+                            </div>
+                            <div className='service-title'>
+                                <h4>AI Strategy & Road mapping</h4>
+                            </div>
+                            <div className='service-contant'>
+                                <p>We define your AI vision, prioritize opportunities, and build a roadmap aligned with your goals.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-md-3 col-lg-4'>
+                        <div className='card shadow border-0 p-4'>
+                            <div className='icon'>
+                                <img src="" alt="" />
+                            </div>
+                            <div className='service-title'>
+                                <h4>AI Strategy & Road mapping</h4>
+                            </div>
+                            <div className='service-contant'>
+                                <p>We define your AI vision, prioritize opportunities, and build a roadmap aligned with your goals.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-md-3 col-lg-4'>
+                        <div className='card shadow border-0 p-4'>
+                            <div className='icon'>
+                                <img src="" alt="" />
+                            </div>
+                            <div className='service-title'>
+                                <h4>AI Strategy & Road mapping</h4>
+                            </div>
+                            <div className='service-contant'>
+                                <p>We define your AI vision, prioritize opportunities, and build a roadmap aligned with your goals.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-md-3 col-lg-4'>
+                        <div className='card shadow border-0 p-4'>
+                            <div className='icon'>
+                                <img src="" alt="" />
+                            </div>
+                            <div className='service-title'>
+                                <h4>AI Strategy & Road mapping</h4>
+                            </div>
+                            <div className='service-contant'>
+                                <p>We define your AI vision, prioritize opportunities, and build a roadmap aligned with your goals.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-md-3 col-lg-4'>
+                        <div className='card shadow border-0 p-4'>
+                            <div className='icon'>
+                                <img src="" alt="" />
+                            </div>
+                            <div className='service-title'>
+                                <h4>AI Strategy & Road mapping</h4>
+                            </div>
+                            <div className='service-contant'>
+                                <p>We define your AI vision, prioritize opportunities, and build a roadmap aligned with your goals.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-md-3 col-lg-4'>
+                        <div className='card shadow border-0 p-4'>
+                            <div className='icon'>
+                                <img src="" alt="" />
+                            </div>
+                            <div className='service-title'>
+                                <h4>AI Strategy & Road mapping</h4>
+                            </div>
+                            <div className='service-contant'>
+                                <p>We define your AI vision, prioritize opportunities, and build a roadmap aligned with your goals.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='service-btn'>
+                    <a href="" className='btn-primary' >Book a Free Strategy call</a>
+                </div>
+            </div>
 
-            
         </section>
     </>
   )

@@ -21,6 +21,7 @@ const Home = () => {
                           </div>
                       </div>
                 </div>
+                <img src={Hero} alt="" className='heroimg' />
             </section>
 
             <TrustFactor />
@@ -147,7 +148,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div className='service-btn'>
+                <div className='service-btn '>
                     <a href="" className='btn-primary' >Book a Free Strategy call</a>
                 </div>
             </div>

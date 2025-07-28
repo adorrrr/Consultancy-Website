@@ -152,8 +152,13 @@ const Home = () => {
                     <a href="" className='btn-primary' >Book a Free Strategy call</a>
                 </div>
             </div>
-
         </section>
+
+        <section>
+            
+        </section>
+
+
     </>
   )
 }

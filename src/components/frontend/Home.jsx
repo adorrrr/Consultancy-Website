@@ -7,9 +7,13 @@ import Vector2 from '../../assets/images/Vector (2).png'
 import Vector3 from '../../assets/images/Settings.png'
 import Vector4 from '../../assets/images/Vector (3).png'
 import Vector5 from '../../assets/images/Vector (4).png'
-// import Vector5 from '../../assets/images/Vector (5).png'
-import TrustFactor from '../common/TrustFactor'
+import Portrait from '../../assets/images/portrait.png'
+import Right from '../../assets/images/right.png'
 import Partner from '../../assets/images/portrait-smiling-young-man 2.png'
+
+import TrustFactor from '../common/TrustFactor'
+import Footer from '../common/footer'
+
 
 
 const Home = () => {
@@ -30,10 +34,9 @@ const Home = () => {
                 </div>
                 <img src={Hero} alt="" className='heroimg' />
             </section>
-
             <TrustFactor />
             
-        </main>
+        
 
         <section className='section-3'>
             <div className='component'>
@@ -161,11 +164,117 @@ const Home = () => {
             </div>
         </section>
 
-        <section>
-            
+        <section className='section-5'>
+            <div className='choose-us d-flex'>
+                <div className='main-img'>
+                    <img src={Portrait} alt="" />
+                </div>
+                <div className='ms-5'>
+                    <div className='choose-us-title'>
+                        <h2>Why Businesses Choose Us</h2>
+                    </div>
+                    <div className='row'>
+                        <div className='col-md-4 col-lg-6 mb-4'>
+                            <div className='card shadow border-0 p-4'>
+                                <div>
+                                    <h4 className='mb-3'><img src={Right} alt="" /> Enterprise-Expertise</h4>
+                                </div>
+                                <div>
+                                    <p className='text-capitalize'>for complex, high-impact environments.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='col-md-4 col-lg-6'>
+                            <div className='card shadow border-0 p-4'>
+                                <div>
+                                    <h4 className='mb-3'><img src={Right} alt="" /> Bespoke solution</h4>
+                                </div>
+                                <div>
+                                    <p className='text-capitalize'>for complex, high-impact environments.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='col-md-4 col-lg-6'>
+                            <div className='card shadow border-0 p-4'>
+                                <div>
+                                    <h4 className='mb-3'><img src={Right} alt="" /> Scalable Results</h4>
+                                </div>
+                                <div>
+                                    <p className='text-capitalize'>for complex, high-impact environments.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='col-md-4 col-lg-6'>
+                            <div className='card shadow border-0 p-4'>
+                                <div>
+                                    <h4 className='mb-3'><img src={Right} alt="" /> Business-First Thinking</h4>
+                                </div>
+                                <div>
+                                    <p className='text-capitalize'>for complex, high-impact environments.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section className='section-6'>
+            <div className='servies'>
+                <div className='servies-heading-contant'>
+                    <h2>Smart Pricing for Smarter Growth.</h2>
+                    <p>Whether you're exploring AI or scaling enterprise systems, we have a plan that fits.</p>
+                </div>
+                <div className='row'>
+                    <div className='col-md-3 col-lg-4 '>
+                        <div className='card shadow border-0 p-4 mb-4'>
+                            <div className='icon '>
+                                <img src={Target} alt="" />
+                            </div>
+                            <div className='service-title'>
+                                <h4>AI Strategy & Road mapping</h4>
+                            </div>
+                            <div className='service-contant'>
+                                <p>We define your AI vision, prioritize opportunities, and build a roadmap aligned with your goals.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-md-3 col-lg-4'>
+                        <div className='card shadow border-0 p-4'>
+                            <div className='icon'>
+                                <img src={Vector1} alt="" />
+                            </div>
+                            <div className='service-title'>
+                                <h4>Custom AI Model Development</h4>
+                            </div>
+                            <div className='service-contant'>
+                                <p>From prototyping to deployment—build AI models tailored to your data, use case, and growth targets.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-md-3 col-lg-4'>
+                        <div className='card shadow border-0 p-4'>
+                            <div className='icon'>
+                                <img src={Vector2} alt="" />
+                            </div>
+                            <div className='service-title'>
+                                <h4>AI Readiness & Assessment</h4>
+                            </div>
+                            <div className='service-contant'>
+                                <p>Assess your systems, data, and infrastructure to ready your business for AI.</p>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+                <div className='service-btn '>
+                    <a href="" className='btn-primary' >See Full Plan</a>
+                </div>
+            </div>
         </section>
 
 
+        <Footer/>
+        </main>
     </>
   )
 }

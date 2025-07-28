@@ -334,3 +334,35 @@ header{
 }
 
 
+.section-5{
+  width: 100%;
+  align-items: center;
+  padding: 100px 160px;
+
+  .choose-us{
+    align-items: center;
+
+    .choose-us-title{
+
+        h2{
+          font-family: "Sora", sans-serif;
+          font-size: 64px;
+          font-weight: 600;
+          line-height: 86px;
+          letter-spacing: -2%;
+          color: $text-color;
+          text-align: left;
+        }
+        p{
+          font-family: "Manrope", sans-serif;
+          font-weight: 400;
+          font-size: 20px;
+          
+        }
+    }
+  }
+  .row{
+    
+  }
+}
+

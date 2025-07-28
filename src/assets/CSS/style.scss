@@ -298,14 +298,32 @@ header{
       color: $primary-color;
       border-radius: 24px;
       text-align: left;
+
+      .icon{
+        height: 48px;
+        width: 48px;
+        background-color: $primary-color;
+        border-radius: 16px;
+        align-items: center;
+        img{
+          padding: 12px;
+        }
+      }
       .service-title{
         h4{
           font-family: "Sora", sans-serif;
           font-weight: 600;
           font-size: 20px;
           letter-spacing: -2%;
-          padding-bottom: 20px;
+          padding-bottom: 15px;
+          padding-top: 14px;
         }
+        p{
+          font-family: "Manrope", sans-serif;
+          font-weight: 400;
+          font-size: 20px;
+        }
+
       }
     }
 

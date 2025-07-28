@@ -1,6 +1,13 @@
 import React from 'react'
 import Header from '../common/Header'
 import Hero from '../../assets/images/heros.png'
+import Target from '../../assets/images/Target.png'
+import Vector1 from '../../assets/images/Vector (1).png'
+import Vector2 from '../../assets/images/Vector (2).png'
+import Vector3 from '../../assets/images/Settings.png'
+import Vector4 from '../../assets/images/Vector (3).png'
+import Vector5 from '../../assets/images/Vector (4).png'
+// import Vector5 from '../../assets/images/Vector (5).png'
 import TrustFactor from '../common/TrustFactor'
 import Partner from '../../assets/images/portrait-smiling-young-man 2.png'
 
@@ -71,8 +78,8 @@ const Home = () => {
                 <div className='row'>
                     <div className='col-md-3 col-lg-4 '>
                         <div className='card shadow border-0 p-4 mb-4'>
-                            <div className='icon'>
-                                <img src="" alt="" />
+                            <div className='icon '>
+                                <img src={Target} alt="" />
                             </div>
                             <div className='service-title'>
                                 <h4>AI Strategy & Road mapping</h4>
@@ -85,65 +92,65 @@ const Home = () => {
                     <div className='col-md-3 col-lg-4'>
                         <div className='card shadow border-0 p-4'>
                             <div className='icon'>
-                                <img src="" alt="" />
+                                <img src={Vector1} alt="" />
                             </div>
                             <div className='service-title'>
-                                <h4>AI Strategy & Road mapping</h4>
+                                <h4>Custom AI Model Development</h4>
                             </div>
                             <div className='service-contant'>
-                                <p>We define your AI vision, prioritize opportunities, and build a roadmap aligned with your goals.</p>
+                                <p>From prototyping to deployment—build AI models tailored to your data, use case, and growth targets.</p>
                             </div>
                         </div>
                     </div>
                     <div className='col-md-3 col-lg-4'>
                         <div className='card shadow border-0 p-4'>
                             <div className='icon'>
-                                <img src="" alt="" />
+                                <img src={Vector2} alt="" />
                             </div>
                             <div className='service-title'>
-                                <h4>AI Strategy & Road mapping</h4>
+                                <h4>AI Readiness & Assessment</h4>
                             </div>
                             <div className='service-contant'>
-                                <p>We define your AI vision, prioritize opportunities, and build a roadmap aligned with your goals.</p>
+                                <p>Assess your systems, data, and infrastructure to ready your business for AI.</p>
                             </div>
                         </div>
                     </div>
                     <div className='col-md-3 col-lg-4'>
                         <div className='card shadow border-0 p-4'>
                             <div className='icon'>
-                                <img src="" alt="" />
+                                <img src={Vector3} alt="" />
                             </div>
                             <div className='service-title'>
-                                <h4>AI Strategy & Road mapping</h4>
+                                <h4>AI Integration & Automation</h4>
                             </div>
                             <div className='service-contant'>
-                                <p>We define your AI vision, prioritize opportunities, and build a roadmap aligned with your goals.</p>
+                                <p>Deploy AI to improve workflows, decision-making, and customer experience.</p>
                             </div>
                         </div>
                     </div>
                     <div className='col-md-3 col-lg-4'>
                         <div className='card shadow border-0 p-4'>
                             <div className='icon'>
-                                <img src="" alt="" />
+                                <img src={Vector4} alt="" />
                             </div>
                             <div className='service-title'>
-                                <h4>AI Strategy & Road mapping</h4>
+                                <h4>Data Engineering & Infrastructure</h4>
                             </div>
                             <div className='service-contant'>
-                                <p>We define your AI vision, prioritize opportunities, and build a roadmap aligned with your goals.</p>
+                                <p>Optimize data pipelines for real-time AI and scalable growth.</p>
                             </div>
                         </div>
                     </div>
                     <div className='col-md-3 col-lg-4'>
                         <div className='card shadow border-0 p-4'>
                             <div className='icon'>
-                                <img src="" alt="" />
+                                <img src={Vector5} alt="" />
                             </div>
                             <div className='service-title'>
-                                <h4>AI Strategy & Road mapping</h4>
+                                <h4>Responsible AI & Compliance</h4>
                             </div>
                             <div className='service-contant'>
-                                <p>We define your AI vision, prioritize opportunities, and build a roadmap aligned with your goals.</p>
+                                <p>Implement ethical, transparent AI with governance and risk management.</p>
                             </div>
                         </div>
                     </div>

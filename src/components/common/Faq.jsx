@@ -2,19 +2,23 @@ import React, { useState } from 'react';
 
 const faData = [
   {
-    question: 'What is Neonverse?',
+    question: 'What kind of businesses do you work with?',
     answer: 'Neonverse is a digital ecosystem built to empower users through web3 innovations.'
   },
   {
-    question: 'What platforms are included in Neonverse?',
+    question: 'Can you work with our existing tech stack?',
     answer: 'Neonverse includes various platforms focusing on entertainment, finance, and decentralized solutions.'
   },
   {
-    question: 'What is the vision of Neonverse?',
+    question: 'How long does it take to see results?',
     answer: 'To create a vibrant decentralized universe that enhances user autonomy and digital experience.'
   },
   {
-    question: 'What are the native tokens of Neonverse?',
+    question: 'What makes WiseConsult different from other AI consultants?',
+    answer: 'The native tokens include $NEO and $VRS, powering transactions and governance.'
+  },
+  {
+    question: 'How do we get started?',
     answer: 'The native tokens include $NEO and $VRS, powering transactions and governance.'
   }
 ];

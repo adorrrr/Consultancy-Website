@@ -397,8 +397,8 @@ const Home = () => {
 
         <section className='section-9'>
             <div className='comment-heading-contant'>
-                <h2>Insights That Drive Business Forward</h2>
-                <p>Stay ahead with expert perspectives, case studies, and practical guides on AI strategy, innovation, and implementation.</p>
+                <h2>the FAQs— We’ve Got the Answers</h2>
+                <p>Everything you need to know about working with us and getting started with AI.</p>
             </div>
             <Faq />
         </section>

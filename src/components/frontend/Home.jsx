@@ -9,11 +9,15 @@ import Vector4 from '../../assets/images/Vector (3).png'
 import Vector5 from '../../assets/images/Vector (4).png'
 import Portrait from '../../assets/images/portrait.png'
 import Right from '../../assets/images/right.png'
+import CEO from '../../assets/images/ceo.jpg'
 import Partner from '../../assets/images/portrait-smiling-young-man 2.png'
 
 import TrustFactor from '../common/TrustFactor'
 import Footer from '../common/footer'
-
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import {Pagination} from 'swiper/modules';
+import 'swiper/css/pagination';
 
 
 const Home = () => {
@@ -283,6 +287,80 @@ const Home = () => {
         </section>
 
 
+
+        <section className='section-7'>
+            <div className='comment mb-3'>
+                <div className='comment-heading-contant'>
+                    <h2>insights from those we've served</h2>
+                    <p>Real stories of transformation from companies that turned AI into measurable impact—where innovation meets execution and results speak for themselves.</p>
+                </div>
+
+                <Swiper
+                    pagination={{
+                      dynamicBullets: true,
+                    }}
+                    modules={[Pagination]}
+                    className="mySwiper"
+                  >
+                    <SwiperSlide>
+                    <div className='contant d-flex'>
+                        <div className='text-contant'>
+                            <div>
+                                <h3>“WiseConsult turned our idea into a working AI system—saving us 10+ hours a week and cutting errors by 30%.”</h3>
+                            </div>
+                            <div>
+                                <span>George</span>
+                                <p>COO, HealthTech Startup</p>
+                            </div>
+                        </div>
+                        <div className='' >
+                            <img src={CEO} alt="CEO" className='contant-img' />
+                        </div>
+                    </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                    <div className='contant d-flex'>
+                        <div className='text-contant'>
+                            <div>
+                                <h3>“WiseConsult turned our idea into a working AI system—saving us 10+ hours a week and cutting errors by 30%.”</h3>
+                            </div>
+                            <div>
+                                <span>George</span>
+                                <p>COO, HealthTech Startup</p>
+                            </div>
+                        </div>
+                        <div className='' >
+                            <img src={CEO} alt="CEO" className='contant-img' />
+                        </div>
+                    </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                    <div className='contant d-flex'>
+                        <div className='text-contant'>
+                            <div>
+                                <h3>“WiseConsult turned our idea into a working AI system—saving us 10+ hours a week and cutting errors by 30%.”</h3>
+                            </div>
+                            <div>
+                                <span>George</span>
+                                <p>COO, HealthTech Startup</p>
+                            </div>
+                        </div>
+                        <div className='' >
+                            <img src={CEO} alt="CEO" className='contant-img' />
+                        </div>
+                    </div>
+                    </SwiperSlide>
+
+                </Swiper>
+            
+            </div>
+        </section>
+
+        <section>
+
+        </section>
+
+        
         <Footer/>
         </main>
     </>

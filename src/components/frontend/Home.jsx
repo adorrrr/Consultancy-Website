@@ -345,7 +345,7 @@ const Home = () => {
                                 <p>COO, HealthTech Startup</p>
                             </div>
                         </div>
-                        <div className='' >
+                        <div  >
                             <img src={CEO} alt="CEO" className='contant-img' />
                         </div>
                     </div>
@@ -360,7 +360,7 @@ const Home = () => {
 
         </section>
 
-        
+
         <Footer/>
         </main>
     </>

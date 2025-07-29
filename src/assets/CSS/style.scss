@@ -598,6 +598,34 @@ header{
 
 }
 
+.section-10{
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  padding: 100px 160px;
+  background-color: $secondary-color;
+
+  .comment-heading-contant{
+    align-items: center;
+    text-align: center;
+    h2{
+        font-family: "Sora", sans-serif;
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 86px;
+        letter-spacing: -2%;
+        color: $text-white;
+        text-transform: capitalize;
+      }
+      p{
+        font-size: 24px;
+        font-weight: 300;
+        padding: 40px 0;
+        color:$text-white;
+      }
+  }
+}
+
 
 
 

@@ -403,6 +403,18 @@ const Home = () => {
             <Faq />
         </section>
 
+        <section className='section-10'>
+            <div className='comment-heading-contant mb-5'>
+                <h2>Let’s Map your smartest move <br />With AI Advantage</h2>
+                <p>We’ll help you explore what AI can do for your business—at no cost, no obligation. Book Your Free 30-Minute AI Strategy Call.</p>
+            </div>
+            <div className='pt-5 '>
+                <a href="" className='btn-primary mx-3'>Schedule a Call</a>
+                <a href="" className='btn-secondary'>How It Works</a>
+            </div>
+        </section>
+
+
             
         <Footer/>
         </main>

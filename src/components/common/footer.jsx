@@ -56,8 +56,8 @@ const Footer = () => {
         </div>
 
         {/* Footer Bottom */}
-        <div className="border-secondary pt-3 mt-5 d-flex flex-column flex-md-row justify-content-between align-items-center text ">
-          <p className="mb-2 mb-md-0">© 2025 WiseConsult. All Rights Reserved.</p>
+        <div className="border-secondary pt-5 mt-5 d-flex flex-column flex-md-row justify-content-between align-items-center text ">
+          <p className="mb-md-0">© 2025 WiseConsult. All Rights Reserved.</p>
           <div className="d-flex gap-3">
             <a href="#" className="text text-decoration-none">Privacy Policy</a>
             <a href="#" className="text text-decoration-none">Terms & Conditions</a>

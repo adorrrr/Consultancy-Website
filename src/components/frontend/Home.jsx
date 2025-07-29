@@ -308,7 +308,7 @@ const Home = () => {
                             <div>
                                 <h3>“WiseConsult turned our idea into a working AI system—saving us 10+ hours a week and cutting errors by 30%.”</h3>
                             </div>
-                            <div>
+                            <div className='info'>
                                 <span>George</span>
                                 <p>COO, HealthTech Startup</p>
                             </div>
@@ -324,7 +324,7 @@ const Home = () => {
                             <div>
                                 <h3>“WiseConsult turned our idea into a working AI system—saving us 10+ hours a week and cutting errors by 30%.”</h3>
                             </div>
-                            <div>
+                            <div className='info'>
                                 <span>George</span>
                                 <p>COO, HealthTech Startup</p>
                             </div>
@@ -340,7 +340,7 @@ const Home = () => {
                             <div>
                                 <h3>“WiseConsult turned our idea into a working AI system—saving us 10+ hours a week and cutting errors by 30%.”</h3>
                             </div>
-                            <div>
+                            <div className='info'>
                                 <span>George</span>
                                 <p>COO, HealthTech Startup</p>
                             </div>
@@ -356,7 +356,7 @@ const Home = () => {
             </div>
         </section>
 
-        <section>
+        <section className='section-8'>
 
         </section>
 

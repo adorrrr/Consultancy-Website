@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../common/Header'
+
 import Hero from '../../assets/images/heros.png'
 import Target from '../../assets/images/Target.png'
 import Vector1 from '../../assets/images/Vector (1).png'
@@ -10,6 +11,9 @@ import Vector5 from '../../assets/images/Vector (4).png'
 import Portrait from '../../assets/images/portrait.png'
 import Right from '../../assets/images/right.png'
 import CEO from '../../assets/images/ceo.jpg'
+import Dimmer from '../../assets/images/Dimmer.png'
+import Dimmer1 from '../../assets/images/Dimmer1.png'
+import Dimmer2 from '../../assets/images/Dimmer2.png'
 import Partner from '../../assets/images/portrait-smiling-young-man 2.png'
 
 import TrustFactor from '../common/TrustFactor'
@@ -18,9 +22,12 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import {Pagination} from 'swiper/modules';
 import 'swiper/css/pagination';
+import Faq from '../common/Faq'
+
 
 
 const Home = () => {
+    
   return (
     <>
         <main>
@@ -357,10 +364,46 @@ const Home = () => {
         </section>
 
         <section className='section-8'>
-
+            <div className='p-1'>
+                <div className='comment-heading-contant'>
+                    <h2>Insights That Drive Business Forward</h2>
+                    <p>Stay ahead with expert perspectives, case studies, and practical guides on AI strategy, innovation, and implementation.</p>
+                </div>
+                <div className='row'>
+                    <div className='col-md-3 col-lg-4 '>
+                        <div className='card border-0  mb-5'>
+                            <img src={Dimmer} alt="" />
+                            <h6>Measuring and Maximizing AI Value in the Enterprise: A Practical Guide</h6>
+                            <span>June 10, 2025</span>
+                        </div>
+                    </div>
+                    <div className='col-md-3 col-lg-4 '>
+                        <div className='card border-0  mb-5'>
+                            <img src={Dimmer1} alt="" />
+                            <h6>How AI is Transforming the C-Suite: The New Era of Data-Driven Leadership</h6>
+                            <span>June 10, 2025</span>
+                        </div>
+                    </div>
+                    <div className='col-md-3 col-lg-4 '>
+                        <div className='card border-0  mb-5'>
+                            <img src={Dimmer2} alt="" />
+                            <h6>Building Secure AI Systems: Preventing Model Leaks and Data Breaches</h6>
+                            <span>June 10, 2025</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
+        <section className='section-9'>
+            <div className='comment-heading-contant'>
+                <h2>Insights That Drive Business Forward</h2>
+                <p>Stay ahead with expert perspectives, case studies, and practical guides on AI strategy, innovation, and implementation.</p>
+            </div>
+            <Faq />
+        </section>
 
+            
         <Footer/>
         </main>
     </>

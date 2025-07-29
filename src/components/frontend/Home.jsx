@@ -220,54 +220,64 @@ const Home = () => {
         </section>
 
         <section className='section-6'>
-            <div className='servies'>
-                <div className='servies-heading-contant'>
+            <div className='subscription'>
+                <div className='subscription-heading-contant'>
                     <h2>Smart Pricing for Smarter Growth.</h2>
                     <p>Whether you're exploring AI or scaling enterprise systems, we have a plan that fits.</p>
                 </div>
                 <div className='row'>
                     <div className='col-md-3 col-lg-4 '>
-                        <div className='card shadow border-0 p-4 mb-4'>
-                            <div className='icon '>
-                                <img src={Target} alt="" />
+                        <div className='card1 border-0 p-4 mb-5'>
+                            <div className='subscription-title'>
+                                <h4>Starter</h4>
+                                <p>For early-stage teams exploring AI possibilities.</p>
+                                <h4>$2,500/month</h4>
                             </div>
-                            <div className='service-title'>
-                                <h4>AI Strategy & Road mapping</h4>
-                            </div>
-                            <div className='service-contant'>
-                                <p>We define your AI vision, prioritize opportunities, and build a roadmap aligned with your goals.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-md-3 col-lg-4'>
-                        <div className='card shadow border-0 p-4'>
-                            <div className='icon'>
-                                <img src={Vector1} alt="" />
-                            </div>
-                            <div className='service-title'>
-                                <h4>Custom AI Model Development</h4>
-                            </div>
-                            <div className='service-contant'>
-                                <p>From prototyping to deployment—build AI models tailored to your data, use case, and growth targets.</p>
+                            <div className='subscription-contant mt-5'>
+                                <ul>
+                                    <li>AI readiness assessment</li>
+                                    <li className='pt-2'>1 tailored use-case workshop</li>
+                                    <li className='pt-2'>Strategy consultation (10 hr/m)</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-3 col-lg-4'>
-                        <div className='card shadow border-0 p-4'>
-                            <div className='icon'>
-                                <img src={Vector2} alt="" />
+                    <div className='col-md-3 col-lg-4 '>
+                        <div className='card2 border-0 p-4 mb-5'>
+                            <div className='subscription-title'>
+                                <h4>Growth <p className='btn'>Popular</p></h4>
+                                <p>For early-stage teams exploring AI possibilities.</p>
+                                <h4>$6,500/month</h4>
                             </div>
-                            <div className='service-title'>
-                                <h4>AI Readiness & Assessment</h4>
-                            </div>
-                            <div className='service-contant'>
-                                <p>Assess your systems, data, and infrastructure to ready your business for AI.</p>
+                            <div className='subscription-contant mt-5'>
+                                <ul>
+                                    <li>Full AI roadmap</li>
+                                    <li className='pt-2'>Prototype development</li>
+                                    <li className='pt-2'>Dedicated consultant</li>
+                                </ul>
                             </div>
                         </div>
-                    </div>                    
+                    </div>
+                    <div className='col-md-3 col-lg-4 '>
+                        <div className='card3 border-0 p-4 mb-5'>
+                            <div className='subscription-title'>
+                                <h4>Enterprise Plan</h4>
+                                <p>For early-stage teams exploring AI possibilities.</p>
+                                <h4>$6,500/month</h4>
+                            </div>
+                            <div className='subscription-contant mt-5'>
+                                <ul>
+                                    <li>Full AI deployment</li>
+                                    <li className='pt-2'>Ongoing optimization</li>
+                                    <li className='pt-2'>Governance & risk management</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                                      
                 </div>
-                <div className='service-btn '>
-                    <a href="" className='btn-primary' >See Full Plan</a>
+                <div className='service-btn mt-5'>
+                    <a href="" className='btn-black' >See Full Plan</a>
                 </div>
             </div>
         </section>

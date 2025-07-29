@@ -4,6 +4,7 @@ $secondary-color: #0E1622;
 $text-color: #041022;
 $text-white: #F9FCFF;
 $lightdark-background: #121D2D;
+$third_color:#EDF6FF;
 
 
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
@@ -361,8 +362,108 @@ header{
         }
     }
   }
-  .row{
-    
-  }
+
 }
 
+.section-6{
+  width: 100%;
+  align-items: center;
+  padding: 100px 160px;
+  .subscription{
+    align-items: center;
+    text-align: center;
+    .subscription-heading-contant{
+      h2{
+        font-family: "Sora", sans-serif;
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 86px;
+        letter-spacing: -2%;
+        color: $text-color;
+      }
+      p{
+        font-size: 24px;
+        font-weight: 400;
+        padding: 40px 0;
+        color:$text-color;
+      }
+
+    }
+      
+  }
+  .row{
+    .card1{
+      background-color: $third_color;
+      text-align: left;
+      border-radius: 24px;
+      h4{
+          font-family: "Sora", sans-serif;
+          font-size: 32px;
+          font-weight: 600;
+          color: $text-color;
+          margin-top: 20px;
+          padding-bottom: 10px;
+        }
+        p{
+          font-family: "Inter", sans-serif;
+          font-weight: 400;    
+          font-size: 24px;
+          padding-bottom: 10px;     
+          margin-top: 20px;     
+        }
+    }
+    .card2{
+      background-color: $secondary-color;
+      color: $text-white;
+      text-align: left;
+      border-radius: 24px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      h4{
+          font-family: "Sora", sans-serif;
+          font-size: 32px;
+          font-weight: 600;
+          color: $text-white;
+          padding-bottom: 10px;
+          
+          .btn{
+            font-family: "Inter", sans-serif;
+            font-size: 15px;
+            border-radius: 60px;
+            color: $text-color;
+            background-color: $primary-color;
+            margin-top: 10px;
+            justify-content: end;
+            margin-left: 230px;
+          }
+        }
+        p{
+          font-family: "Inter", sans-serif;
+          font-weight: 400;    
+          font-size: 24px;
+          line-height: -86px;
+          letter-spacing: -2%;
+          padding-bottom: 10px;
+        }
+    }
+    .card3{
+      background-color: $third_color;
+      text-align: left;
+      border-radius: 24px;
+      h4{
+        margin-top: 20px;
+          font-family: "Sora", sans-serif;
+          font-size: 32px;
+          font-weight: 600;
+          color: $text-color;
+          padding-bottom: 10px;
+        }
+        p{
+          margin-top: 20px;
+          font-family: "Inter", sans-serif;
+          font-weight: 400;    
+          font-size: 24px;
+          padding-bottom: 10px;          
+        }
+    }
+  }
+}

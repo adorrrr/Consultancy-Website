@@ -751,7 +751,7 @@ header{
     width: 800px;
     text-align: left;
     border-radius: 24px;
-    background-image: url(../images/blog1.png);
+    background-image: url(../images/Blog.png);
     color: $text-white;
     padding: 0px 25px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 15px 15px;
@@ -787,6 +787,38 @@ header{
   }
 }
 
+.section-13{
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  padding: 100px 160px;
+  background-color: $primary-color;
+  h3{
+    text-align: left;
+    font-size: 32px;
+    font-weight: 500;
+  }
+
+  .Read-Now{
+    padding-top: 22px;
+    padding-left: 440px;
+  }
+
+  .blog-post-contant{
+    height: 610px;
+    width: 800px;
+    img{
+      height: 285px;
+      width: 380;
+      border-radius: 24px;
+    }
+    .blog-contant{
+      text-align: left;
+      padding: 10px 10px;
+    }
+  }
+  
+}
 
 
 

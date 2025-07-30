@@ -8,6 +8,7 @@ import './assets/css/style.scss';
 import Home from './components/frontend/Home';
 import About from './components/frontend/About';
 import Pricing from './components/frontend/Pricing';
+import Blog from './components/frontend/Blog';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Routes>
             <Route path='/' element={<Home/>} />
             <Route path='/pricing' element={<Pricing/>} />
+            <Route path='/blog' element={<Blog/>} />
             <Route path='/about' element={<About/>} />
         </Routes>
       </BrowserRouter>

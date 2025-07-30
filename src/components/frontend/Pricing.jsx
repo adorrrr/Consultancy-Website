@@ -6,6 +6,9 @@ import 'swiper/css';
 import {Pagination} from 'swiper/modules';
 import 'swiper/css/pagination';
 import CEO from '../../assets/images/ceo.jpg'
+import CTO from '../../assets/images/CTO.png'
+import Footer from '../common/footer';
+import Faq from '../common/Faq';
 
 const Pricing = () => {
   return (
@@ -18,7 +21,6 @@ const Pricing = () => {
                 <p className='mt-5 text-capitalize'>Flexible AI Consulting Packages Tailored to Your Business Goals</p>
             </div>
         </section>
-
 
         <section className='section-6'>
             <div className='subscription'>
@@ -110,9 +112,7 @@ const Pricing = () => {
             </div>
         </section>
 
-
         <TrustFactor/>
-
 
         <section className='section-7'>
             <div className='comment mb-3'>
@@ -140,7 +140,7 @@ const Pricing = () => {
                             </div>
                         </div>
                         <div className='' >
-                            <img src={CEO} alt="CEO" className='contant-img' />
+                            <img src={CTO} alt="CEO" className='contant-img' />
                         </div>
                     </div>
                     </SwiperSlide>
@@ -172,7 +172,7 @@ const Pricing = () => {
                             </div>
                         </div>
                         <div  >
-                            <img src={CEO} alt="CEO" className='contant-img' />
+                            <img src={CTO} alt="CEO" className='contant-img' />
                         </div>
                     </div>
                     </SwiperSlide>
@@ -181,7 +181,26 @@ const Pricing = () => {
             </div>
         </section>
 
+        <section className='section-9'>
+            <div className='comment-heading-contant'>
+                <h2>Frequently Asked Questions</h2>
+                <p>Still have questions? We’ve got answers.</p>
+            </div>
+            <Faq/>
+        </section>
 
+        <section className='section-10'>
+            <div className='comment-heading-contant mb-3'>
+                <h2>Need Something Custom?</h2>
+                <p>We understand that some projects are unique. Reach out to create a custom engagement that fits your exact needs.</p>
+            </div>
+            <div className='pt-3 mb-5 pb-5'>
+                <a href="" className='btn-primary mx-3'>Schedule a free consultation</a>
+            </div>
+        </section>
+
+
+    <Footer/>
     </main>
     </>
   )

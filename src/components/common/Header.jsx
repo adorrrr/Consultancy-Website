@@ -24,9 +24,9 @@ const Header = () => {
           <Nav className="mx-auto dash-nav">
             <Nav.Link href="/" className="dash-link text-white">Home</Nav.Link>
             <Nav.Link href="/pricing" className="dash-link text-white">Pricing</Nav.Link>
-            <Nav.Link href="#" className="dash-link text-white">Blogs</Nav.Link>
+            <Nav.Link href="/blog" className="dash-link text-white">Blogs</Nav.Link>
             <Nav.Link href="/about" className="dash-link text-white">About Us</Nav.Link>
-            <Nav.Link href="#" className="dash-link text-white">Contact</Nav.Link>
+            <Nav.Link href="/contact" className="dash-link text-white">Contact</Nav.Link>
            </Nav>
 
         </Navbar.Collapse>

@@ -7,6 +7,7 @@ import { BrowserRouter,Routes, Route } from 'react-router-dom';
 import './assets/css/style.scss';
 import Home from './components/frontend/Home';
 import About from './components/frontend/About';
+import Pricing from './components/frontend/Pricing';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <BrowserRouter>
         <Routes>
             <Route path='/' element={<Home/>} />
+            <Route path='/pricing' element={<Pricing/>} />
             <Route path='/about' element={<About/>} />
         </Routes>
       </BrowserRouter>

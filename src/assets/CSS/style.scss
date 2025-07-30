@@ -36,7 +36,7 @@ a{
 }
 
 .btn-primary{
-  font-family: "Manrope", sans-serif;
+    font-family: "Manrope", sans-serif;
     background-color: $primary-color;
     border: 1px solid $primary-color;
     padding:15px 20px;
@@ -144,9 +144,8 @@ header{
 
 .section-1{
   padding: 0px 160px;
-    width: 100%;
-
-    background: linear-gradient(90deg, #0E1622, #4790FF); // Adjust based on your image
+  width: 100%;
+  background: linear-gradient(90deg, #0E1622, #4790FF); // Adjust based on your image
     .hero{
       color: $text-white;
       padding-top: 200px;
@@ -411,13 +410,37 @@ header{
           padding-bottom: 10px;     
           margin-top: 20px;     
         }
+        .subscription-btn{
+          width: 100%;
+          font-family: "Manrope", sans-serif;
+          background-color: $text-color;
+          border: 1px solid $text-color;
+          padding:15px 20px;
+          font-size: 1em;
+          font-weight: 600;
+          border-radius: 24px;
+          color: $text-white;
+          text-align: center;
+          &:hover{
+              background-color: $primary-color;
+              border: 1px solid $secondary-color;
+              color: #041022;
+          }
+          a{
+            text-decoration: none;
+            color: $text-white;
+          &:hover{
+            color: $text-color;
+          }
+          }
+        }
     }
     .card2{
       background-color: $secondary-color;
       color: $text-white;
       text-align: left;
       border-radius: 24px;
-      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 15px 15px;
       h4{
           font-family: "Sora", sans-serif;
           font-size: 32px;
@@ -444,6 +467,30 @@ header{
           letter-spacing: -2%;
           padding-bottom: 10px;
         }
+        .btnn{
+          width: 100%;
+          font-family: "Manrope", sans-serif;
+          background-color: $primary-color;
+          border: 1px solid $text-color;
+          padding:15px 20px;
+          font-size: 1em;
+          font-weight: 600;
+          border-radius: 24px;
+          color: $text-white;
+          text-align: center;
+          a{
+            text-decoration: none;
+            color: $text-color;
+          &:hover{
+            color: $primary-color;
+          }
+          }
+          &:hover{
+              background-color: $secondary-color;
+              border: 1px solid $primary-color;
+              color: #041022;
+          }
+        }
     }
     .card3{
       background-color: $third_color;
@@ -463,6 +510,30 @@ header{
           font-weight: 400;    
           font-size: 24px;
           padding-bottom: 10px;          
+        }
+        .subscription-btn{
+          width: 100%;
+          font-family: "Manrope", sans-serif;
+          background-color: $text-color;
+          border: 1px solid $text-color;
+          padding:15px 20px;
+          font-size: 1em;
+          font-weight: 600;
+          border-radius: 24px;
+          color: $text-white;
+          text-align: center;
+          &:hover{
+              background-color: $primary-color;
+              border: 1px solid $secondary-color;
+              color: #041022;
+          }
+          a{
+            text-decoration: none;
+            color: $text-white;
+          &:hover{
+            color: $text-color;
+          }
+          }
         }
     }
   }
@@ -626,7 +697,29 @@ header{
   }
 }
 
+.section-11{
+  padding: 0px 160px;
+  width: 100%;
+  height: 659px;
+  background: linear-gradient(90deg, #0E1622, #4790FF); 
 
+  .hero{
+      color: $text-white;
+      padding-top: 150px;
+
+      h1{
+        font-weight: 600;
+        font-size: 76px;
+        letter-spacing: -2px;
+        line-height: 86px;
+      }
+      p{
+        font-family: "Manrope", sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+      }
+    }
+}
 
 
 

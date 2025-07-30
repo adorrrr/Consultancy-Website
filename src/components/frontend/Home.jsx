@@ -293,8 +293,6 @@ const Home = () => {
             </div>
         </section>
 
-
-
         <section className='section-7'>
             <div className='comment mb-3'>
                 <div className='comment-heading-contant'>

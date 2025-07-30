@@ -23,7 +23,7 @@ const Header = () => {
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
           <Nav className="mx-auto dash-nav">
             <Nav.Link href="/" className="dash-link text-white">Home</Nav.Link>
-            <Nav.Link href="#" className="dash-link text-white">Pricing</Nav.Link>
+            <Nav.Link href="/pricing" className="dash-link text-white">Pricing</Nav.Link>
             <Nav.Link href="#" className="dash-link text-white">Blogs</Nav.Link>
             <Nav.Link href="/about" className="dash-link text-white">About Us</Nav.Link>
             <Nav.Link href="#" className="dash-link text-white">Contact</Nav.Link>

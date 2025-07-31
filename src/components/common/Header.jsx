@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Navbar, Nav, Button } from 'react-bootstrap';
-import '../../assets/CSS/style.scss'; 
+import '../../assets/css/style.scss'; 
 import Logo from '../../assets/images/Vector.png'
 
 

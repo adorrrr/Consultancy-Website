@@ -9,6 +9,7 @@ import Home from './components/frontend/Home';
 import About from './components/frontend/About';
 import Pricing from './components/frontend/Pricing';
 import Blog from './components/frontend/Blog';
+import Contact from './components/frontend/Contact';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
             <Route path='/pricing' element={<Pricing/>} />
             <Route path='/blog' element={<Blog/>} />
             <Route path='/about' element={<About/>} />
+            <Route path='/contact' element={<Contact/>} />
         </Routes>
       </BrowserRouter>
     </>

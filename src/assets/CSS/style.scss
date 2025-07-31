@@ -1,3 +1,4 @@
+
 //Global Color
 $primary-color: #F9FCFF;
 $secondary-color: #0E1622;
@@ -27,15 +28,16 @@ h3{
 p{
     font-size: 1.2em;
 }
-a{
-    text-decoration: none;
-    color: $text-white;
-    &:hover{
-            color: $primary-color;
-        }
-}
+// a{
+//     text-decoration: none;
+//     color: $text-white;
+//     &:hover{
+//             color: $primary-color;
+//         }
+// }
 
 .btn-primary{
+  text-decoration: none;
     font-family: "Manrope", sans-serif;
     background-color: $primary-color;
     border: 1px solid $primary-color;
@@ -52,6 +54,7 @@ a{
 }
 
   .btn-secondary{
+    text-decoration: none;
     font-family: "Manrope", sans-serif;
     background-color: transparent;
     border: 1px solid $primary-color;
@@ -59,6 +62,7 @@ a{
     font-size: 1em;
     font-weight: 600;
     border-radius: 24px;
+    color: $text-white;
     &:hover{
         background-color: $primary-color;
         border: 1px solid $primary-color;
@@ -67,6 +71,7 @@ a{
 }
 
 .btn-black{
+  text-decoration: none;
   font-family: "Manrope", sans-serif;
     background-color: $text-color;
     border: 1px solid $text-color;
@@ -163,7 +168,7 @@ header{
       }
   }
     .heroimg{
-    margin-top: -800px;
+    margin-top: -750px;
     margin-left: 530px;
   }
 

@@ -26,6 +26,7 @@ import Faq from '../common/Faq'
 
 
 
+
 const Home = () => {
     
   return (
@@ -38,8 +39,8 @@ const Home = () => {
                           <h1>AI Consulting. <br />Engineered for <br /> Tomorrow’s Triumph</h1>
                           <p className='mt-5 text-capitalize'>We craft intelligent, adaptive solutions that drive efficiency, <br /> spark innovation, and scale impact—today and beyond.</p>
                           <div className='mt-5'>
-                            <a className='btn btn-primary mx-2'>Contact Now</a>
-                            <a className='btn btn-secondary ms-2'>View Projects</a>
+                            <a className='btn-primary mx-2'>Contact Now</a>
+                            <a className='btn-secondary ms-2'>View Projects</a>
                           </div>
                       </div>
                 </div>

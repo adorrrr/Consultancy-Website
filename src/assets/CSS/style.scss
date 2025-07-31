@@ -263,7 +263,6 @@ header{
 
 }
 
-
 .section-4{
   width: 100%;
   align-items: center;
@@ -827,12 +826,126 @@ header{
   padding: 100px 160px;
   font-size: 24px;
   font-weight: 400;
+
+  .hero-stats {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),url(../images/Rectangle.png);
+    border-radius: 24px;
+    height: 728px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+
+  .stat-item{
+    padding-top: 560px;
+    align-items: center;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    h2{
+      font-size: 76px;
+      font-weight: 700;
+      letter-spacing: -2%;
+      line-height: 86px;
+      color: $text-white;
+    }
+    p{
+        font-family: "Inter", sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        color: $text-white;
+
+    }
+  }
+
+}
+}
+
+.section-15{
+  width: 100%;
+  align-items: center;
+  text-align: left;
+  padding: 100px 160px;
+  font-size: 20px;
+  color: $text-white;
+  background-color: $secondary-color;
   img{
-    width: 1600px;
-    height: 767px;
-    border-radius: 40px;
+    height: 754px;
+    width: 760px;
+    margin-left: 35px;
+
+  }
+  h2{
+    font-weight: 600;
+    font-size: 64px;
   }
 }
+
+.section-16{
+  width: 100%;
+  padding: 100px 160px;
+  align-items: center;
+  text-align: center;
+
+  .comment-heading-contant{
+
+    h2{
+        font-family: "Sora", sans-serif;
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 86px;
+        letter-spacing: -2%;
+        color: $text-color;
+        text-transform: capitalize;
+      }
+      p{
+        font-size: 24px;
+        font-weight: 300;
+        padding: 40px 0;
+        color:$text-color;
+      }
+  }
+
+  .row{
+
+    .card{
+      padding: 0px 20px;
+      color: $text-color;
+      border-radius: 24px;
+      text-align: left;
+      width: fit-content;
+
+      img{
+        height: 500px;
+      }
+      
+      .service-title{
+        h4{
+          font-family: "Sora", sans-serif;
+          font-weight: 600;
+          font-size: 24px;
+          letter-spacing: -2%;
+          padding-bottom: 15px;
+          padding-top: 14px;
+          color: $text-color;
+        }
+
+      }
+      .service-contant {
+        margin-top: -15px;
+        p{
+          font-family: "Manrope", sans-serif;
+          font-weight: 400;
+          font-size: 24px;
+          color: $text-color;
+        }
+      }
+    }
+
+  }
+}
+
 
 
 

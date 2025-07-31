@@ -4,10 +4,16 @@ import Footer from '../common/footer'
 import Dimmer1 from '../../assets/images/Dimmer1.png'
 import Dimmer2 from '../../assets/images/Dimmer2.png'
 import Blog from '../../assets/images/Blog.png'
+import CEO from '../../assets/images/CEO.png'
 import Blog1 from '../../assets/images/blog1.png'
 import Blog2 from '../../assets/images/blog2.png'
 import Blog3 from '../../assets/images/blog3.png'
 import Blog4 from '../../assets/images/blog4.png'
+import TrustFactor from '../common/TrustFactor'
+
+import Member1 from '../../assets/images/member1.png'
+import Member2 from '../../assets/images/member2.png'
+import Member3 from '../../assets/images/member3.png'
 
 const About = () => {
   return (
@@ -22,28 +28,132 @@ const About = () => {
         </section>
 
         <section className='section-14'>
-            <img src={Blog} alt="" className='mb-5' />
-            <p className='mb-4 mt-5'>N 2025, artificial intelligence is a cornerstone of enterprise success, but unlocking its transformative potential requires meticulous measurement and alignment with business priorities. By carefully tying AI initiatives to specific goals, such as reducing operational costs or enhancing customer satisfaction, organizations can establish a robust foundation for quantifying impact and ensuring meaningful outcomes</p>
-            <ul className='mb-4'>
-              <li><b>Craft Targeted KPIs: </b>Develop metrics like revenue growth, operational efficiency, or customer retention to evaluate AI’s contributions accurately.</li>
-              <li><b>Set Comprehensive Baselines: </b> Document pre-AI performance metrics to create a clear reference point for tracking improvements over time.</li>
-              <li><b>Monitor with Precision:</b> Leverage visualization tools like Power BI to provide real-time insights into AI performance and identify areas for refinement.</li>
-            </ul>
-            <p className='mb-5'>For instance, a global retailer implemented an AI-driven inventory management system, which dramatically reduced overstock losses by 40% within just six months, showcasing the power of clear metrics.</p>
-            <b>Optimize for Sustained Impact</b>
-            <p className='mb-4'>To fully capitalize on AI’s potential, enterprises must translate insights from performance data into actionable strategies that amplify value across operations. Whether it’s scaling successful pilots or addressing underperforming systems, a proactive approach ensures AI delivers both tangible and intangible benefits, strengthening the case for continued investment.</p>
-            <ul className='mb-5'>
-              <li><b>Craft Targeted KPIs: </b>Develop metrics like revenue growth, operational efficiency, or customer retention to evaluate AI’s contributions accurately.</li>
-              <li><b>Set Comprehensive Baselines: </b> Document pre-AI performance metrics to create a clear reference point for tracking improvements over time.</li>
-              <li><b>Monitor with Precision:</b> Leverage visualization tools like Power BI to provide real-time insights into AI performance and identify areas for refinement.</li>
-            </ul>
-            <b>Overcome Challenges, Unlock Potentia</b>
-            <p className='mb-4'>AI deployments can face significant hurdles, including fragmented data ecosystems and ethical concerns that undermine trust and performance. By adopting integrated data platforms and robust ethical frameworks, enterprises can overcome these obstacles and unlock AI’s full potential, ensuring sustainable and trustworthy outcomes.</p>
-            <ul className='mb-4'>
-              <li><b>Craft Targeted KPIs: </b>Develop metrics like revenue growth, operational efficiency, or customer retention to evaluate AI’s contributions accurately.</li>
-              <li><b>Set Comprehensive Baselines: </b> Document pre-AI performance metrics to create a clear reference point for tracking improvements over time.</li>
-            </ul>
-            <p>Ready to harness AI’s full potential for your enterprise? Our consultancy specializes in crafting tailored strategies to measure and maximize value. <b> Book a Consultation | Contact Us</b></p>
+            <p className='mb-5'>With over 20 years of industry expertise and deep technical roots, WiseConsult helps businesses unlock the power of AI—clearly, ethically, and at scale. Our team of experts from Fortune 500s and top AI labs delivers tailored solutions that automate workflows, optimize operations, and accelerate growth. <br /><br />We turn complexity into clarity—so you can lead with confidence in an AI-driven world.</p>
+
+            <div className='Rectangle mt-5'>
+                <div class="hero-stats">
+                  <div class="stat-item">
+                    <h2>20+</h2>
+                    <p>Years Of Industry Experience</p>
+                  </div>
+                  <div class="stat-item">
+                    <h2>100+</h2>
+                    <p>Global Businesses Served</p>
+                  </div>
+                  <div class="stat-item">
+                    <h2>$90M+</h2>
+                    <p>Business Value Generated</p>
+                  </div>
+                  <div class="stat-item">
+                    <h2>98%</h2>
+                    <p>Client Satisfaction Rate</p>
+                  </div>
+                </div>
+            </div>
+        </section>
+
+        <TrustFactor/>
+
+        <section className='section-15'>
+            <div className='d-flex'>
+                <div>
+                    <h2 className='mb-4'>Message <br />From Our CEO</h2>
+                    <p className='pt-2'>“Technology moves fast. Our job is to make sure your business moves faster—with purpose.” <br /> <br />At WiseConsult, our mission is to make AI practical, ethical, and valuable for real-world business. With decades of industry experience, I’ve learned that while technology evolves fast, what matters most is clarity, trust, and measurable results. <br /><br />We founded WiseConsult to bridge innovation with application. Our vision is to be the most trusted AI consultancy for businesses that value outcomes over buzzwords. <br /><br /> If you're ready to lead with AI—wisely—we're here to help. <br /><br /><b>Kawsar Wahid</b> <br />Founder & CEO, WiseConsult
+                    </p>
+                </div>
+                <div>
+                    <img src={CEO} alt="" />
+                </div>
+            </div>
+        </section>
+
+        <section className='section-16'>
+            <div>
+                <div className='comment-heading-contant mb-3'>
+                    <h2>Meet the Team</h2>
+                    <p>Our diverse team combines decades of experience from Fortune 500 companies and top research institutions. We bring together engineers, data scientists, strategists, and business experts—all passionate about making AI practical and powerful.</p>
+                </div>
+                <div className='row'>
+                    <div className='col-md-3 col-lg-4 '>
+                        <div className='card shadow border-0 p-4 mb-4'>
+                            <div className='icon '>
+                                <img src={Member1} alt="" />
+                            </div>
+                            <div className='service-title'>
+                                <h4>Adam Smith</h4>
+                            </div>
+                            <div className='service-contant'>
+                                <p>Chief AI Scientist</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-md-3 col-lg-4'>
+                        <div className='card shadow border-0 p-4 ms-4'>
+                            <div className='icon'>
+                                <img src={Member2} alt="" />
+                            </div>
+                            <div className='service-title'>
+                                <h4>Adam Smith</h4>
+                            </div>
+                            <div className='service-contant'>
+                                <p>Head of Engineering</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-md-3 col-lg-4'>
+                        <div className='card shadow border-0 p-4  ms-5'>
+                            <div className='icon'>
+                                <img src={Member3} alt="" />
+                            </div>
+                            <div className='service-title'>
+                                <h4>Adam Smith</h4>
+                            </div>
+                            <div className='service-contant '>
+                                <p>Strategy Lead</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-md-3 col-lg-4 '>
+                        <div className='card shadow border-0 p-4 mb-4'>
+                            <div className='icon '>
+                                <img src={Member1} alt="" />
+                            </div>
+                            <div className='service-title'>
+                                <h4>Adam Smith</h4>
+                            </div>
+                            <div className='service-contant'>
+                                <p>Chief AI Scientist</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-md-3 col-lg-4'>
+                        <div className='card shadow border-0 p-4 ms-4'>
+                            <div className='icon'>
+                                <img src={Member2} alt="" />
+                            </div>
+                            <div className='service-title'>
+                                <h4>Adam Smith</h4>
+                            </div>
+                            <div className='service-contant'>
+                                <p>Head of Engineering</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-md-3 col-lg-4'>
+                        <div className='card shadow border-0 p-4  ms-5'>
+                            <div className='icon'>
+                                <img src={Member3} alt="" />
+                            </div>
+                            <div className='service-title'>
+                                <h4>Adam Smith</h4>
+                            </div>
+                            <div className='service-contant '>
+                                <p>Strategy Lead</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section className='section-13'>

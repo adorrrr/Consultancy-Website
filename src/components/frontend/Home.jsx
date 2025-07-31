@@ -46,7 +46,6 @@ const Home = () => {
                 <img src={Hero} alt="" className='heroimg' />
             </section>
             <TrustFactor />
-            
         
 
         <section className='section-3'>

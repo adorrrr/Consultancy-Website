@@ -22,8 +22,8 @@ const About = () => {
         <section className='section-11'>
             <Header/>
             <div className='hero text-center'>
-                <h1>Measuring and Maximizing AI Value in the Enterprise: A Practical Guide</h1>
-                <p className='mt-5 text-capitalize'>May 27, 2025</p>
+                <h1>About WiseConsult</h1>
+                <p className='mt-5 text-capitalize'>Where Deep Experience Meets Intelligent Innovation</p>
             </div>
         </section>
 

@@ -11,8 +11,8 @@ const Contact = () => {
         <section className='section-11'>
             <Header/>
             <div className='hero text-center'>
-                <h1>Measuring and Maximizing AI Value in the Enterprise: A Practical Guide</h1>
-                <p className='mt-5 text-capitalize'>May 27, 2025</p>
+                <h1>Let’s Connect, Let’s Grow e</h1>
+                <p className='mt-5 text-capitalize'>Reach out to WiseConsult to discover how AI-driven solutions can accelerate your business growth. Together, we’ll lead the future.</p>
             </div>
         </section>
 

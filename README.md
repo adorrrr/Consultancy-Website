@@ -1,6 +1,6 @@
 # WiseConsult – AI Consulting Website
 
-<img src="https://res.cloudinary.com/dphnu6u05/image/upload/v1754063347/Black_and_White_Illustrative_Manager_LinkedIn_Banner_bndwlw.png"/>
+<img src="https://res.cloudinary.com/dphnu6u05/image/upload/v1754068813/Screenshot_2025-08-01_231901_bx9vbn.png"/>
 
 
 **AI Consulting. Engineered for Tomorrow’s Triumph.**  

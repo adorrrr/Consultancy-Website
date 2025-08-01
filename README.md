@@ -42,6 +42,7 @@ WiseConsult is a responsive and modern AI consulting website built using **React
 
 ## 📂 Folder Structure
 
+```
 /src
 │
 ├── assets/
@@ -54,7 +55,7 @@ WiseConsult is a responsive and modern AI consulting website built using **React
 │
 └── App.jsx               # App entry
 
-
+```
 
 
 ##  Screenshots

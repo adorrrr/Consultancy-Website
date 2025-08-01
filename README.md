@@ -58,10 +58,6 @@ WiseConsult is a responsive and modern AI consulting website built using **React
 ```
 
 
-##  Screenshots
-
-<img src="https://res.cloudinary.com/dphnu6u05/image/upload/v1754067743/png-transparent-loading-logo-computer-icons-address-bar-loading-miscellaneous-text-rectangle-thumbnail-removebg-preview_pg42ni.png"/>
-
 
 ##  Credits
 

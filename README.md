@@ -1,17 +1,7 @@
-# AI Consulting.
+# WiseConsult – AI Consulting Website
 
 <img src="https://res.cloudinary.com/dphnu6u05/image/upload/v1754063347/Black_and_White_Illustrative_Manager_LinkedIn_Banner_bndwlw.png"/>
 
-
-
-## AI consulting for smart, scalable, and innovative solutions.
-
-Here's a well-structured `README.md` content for your AI Consulting website project based on your provided `Home.jsx` code:
-
----
-
-```markdown
-# WiseConsult – AI Consulting Website
 
 **AI Consulting. Engineered for Tomorrow’s Triumph.**  
 We craft intelligent, adaptive solutions that drive efficiency, spark innovation, and scale impact—today and beyond.

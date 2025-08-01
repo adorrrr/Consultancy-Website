@@ -46,27 +46,26 @@ WiseConsult is a responsive and modern AI consulting website built using **React
 /src
 │
 ├── assets/
-│   └── images/           # All image files
+│   └── images/            # All image files
 │
 ├── components/
-│   ├── common/           # Reusable UI components (Header, Footer, FAQ, TrustFactor)
-│   └── pages/
-│       └── Home.jsx      # Main homepage layout
+│   ├── common/            # Reusable UI components (Header, Footer, FAQ, TrustFactor)
+│   └── frontend/
+│        └── Home.jsx      # Main homepage layout
 │
-└── App.jsx               # App entry
+└── App.jsx                # App entry
 
 ```
 
 
 ##  Screenshots
 
-*Add screenshots or GIFs of the UI here*
+<img src="https://res.cloudinary.com/dphnu6u05/image/upload/v1754067743/png-transparent-loading-logo-computer-icons-address-bar-loading-miscellaneous-text-rectangle-thumbnail-removebg-preview_pg42ni.png"/>
 
 
 ##  Credits
 
 * Design by: Habibur Rahman Khan 
-* Images & Icons: Placeholder assets
 * Developed by: [Ahasanul Monir Adar](https://www.linkedin.com/in/ahasanul-monir-adar-8b8464274/)
 
 

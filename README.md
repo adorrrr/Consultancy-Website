@@ -1,5 +1,8 @@
 # AI Consulting.
 
+<img src="https://res.cloudinary.com/dcpbuxikd/image/upload/v1746771725/Screenshot_20250509-111611_phs3ir.png" width="300"/>
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:

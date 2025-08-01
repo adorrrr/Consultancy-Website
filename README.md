@@ -34,9 +34,9 @@ WiseConsult is a responsive and modern AI consulting website built using **React
 
 ##  Tech Stack
 
-- ⚛️ **React JS** – Frontend Library  
-- 💅 **SCSS** – For component-level styling  
-- 🖼️ **Swiper.js** – Carousel for testimonials  
+- **React JS** – Frontend Library  
+- **SCSS** – For component-level styling  
+- **Swiper.js** – Carousel for testimonials  
 
 
 

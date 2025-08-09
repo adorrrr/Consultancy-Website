@@ -11,6 +11,26 @@ import About from './components/frontend/About';
 import Pricing from './components/frontend/Pricing';
 import Blog from './components/frontend/Blog';
 import Contact from './components/frontend/Contact';
+import LocomotiveScroll from 'locomotive-scroll';
+import 'locomotive-scroll/dist/locomotive-scroll.css';
+
+// Initialize Locomotive Scroll
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('[data-scroll-container]'),
+    smooth: true,
+    lerp: 0.1,
+    multiplier: 0.5,
+    smartphone: {
+        smooth: true,
+        lerp: 0.1,
+        multiplier: 0.5,
+    },
+    tablet: {
+        smooth: true,
+        lerp: 0.1,
+        multiplier: 0.5,
+    }
+});
 
 function App() {
 

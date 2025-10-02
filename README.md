@@ -11,7 +11,6 @@ We craft intelligent, adaptive solutions that drive efficiency, spark innovation
 [View Live Website](#) 
 
 
-
 ##  Project Overview
 
 WiseConsult is a responsive and modern AI consulting website built using **React**, **SCSS**, and **Swiper.js**. This website showcases the company’s AI services, solutions, pricing plans, client testimonials, and industry insights with a focus on user-friendly UI/UX.

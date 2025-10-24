@@ -4,7 +4,7 @@
 
 
 **AI Consulting. Engineered for Tomorrow’s Triumph.**  
-We craft intelligent, adaptive solutions that drive efficiency, spark innovation, and scale impact—today and beyond.
+We craft intelligent, adaptive solutions that drive efficiency, spark innovation, and scale impact today and beyond.
 
 
 ##  Project Overview
